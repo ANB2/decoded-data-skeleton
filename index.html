@@ -6,11 +6,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Decoded Data-Visualisation Skeleton</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -21,15 +23,32 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <p>Welcome to the Decoded Data Visualisation Skeleton</p>
+        <div class=container>
 
-        <script src="http:////ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+          <h1>Welcome to the Decoded Data Visualisation Skeleton</h1>
+
+          <h3>Libraries included</h3>
+
+          <p><a href="http://getbootstrap.com">Twitter Bootstrap</a> - responsive grid, UI components</a></p>
+          <p><a href="http://angularjs.org/">AngularJS</a> - 'HTML enhanced for web apps', productive MVC framework</a></p>
+          <p><a href="http://backbonejs.org/">Backbone.js</a> - library code &amp; structure for web-apps</a></p>
+          <p><a href="http://d3js.org">D3</a> - data visualiation for the web</a></p>
+          <p><a href="http://modernizr.com/">Modernizr</a> - feature detection for HTML5 and CSS3</a></p>
+
+          <h3>Using the included libraries</h3>
+
+          <p>We've already included jQuery, Bootstrap and Modernizr in this <code>index.html</code> - copy it, replace this blurb with your code, and you're set.</p>
+          <p>If you want to use the other libraries you can find their dependencies commented out at the bottom of this file.</p>
+
+        </div>
+
+        <!-- boiler-plate dependencies -->
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
 
-        <!-- ADD LIBRARIES -->
+        <!-- Libraries - to use a library simply remove the HTML comments around it -->
 
         <!-- angular js
              <script src="js/angular.js"></script> -->
